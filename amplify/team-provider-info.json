@@ -17,6 +17,12 @@
       },
       "api": {
         "simplebrandpage": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1jc6ccnyzohiz",
+          "type": "cicd"
+        }
       }
     }
   }
