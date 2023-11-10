@@ -1,0 +1,33 @@
+img{
+    width: 100px;
+    height: 50px;
+}
+
+.nike{
+    padding: 13px 0;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(116, 178, 180);
+}
+
+.contents{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    list-style-type: none;
+    margin: 20px  ;
+}
+
+button{
+    background-color: #2f686a;
+    color: antiquewhite;
+    padding: 10px 20px;
+    border-radius: 10px;
+}

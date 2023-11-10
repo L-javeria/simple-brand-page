@@ -1,0 +1,12 @@
+{
+  "AppSyncApiName": "simplebrandpage",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authsimplebrandpagee7e90d47",
+      "Outputs.UserPoolId"
+    ]
+  },
+  "AuthModeLastUpdated": "2023-11-06T11:07:06.705Z"
+}
